@@ -1,0 +1,23 @@
+h1{
+    font-family: 'Lobster', sans-serif;
+    color: rgb(124, 124, 3);
+
+}
+
+body{
+    background-color: rgb(107, 107, 107);
+}
+
+
+img{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    
+}
+
+img{
+    width: 100%;
+    height: auto;
+    
+}
