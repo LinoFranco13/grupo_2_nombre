@@ -1,0 +1,44 @@
+*{
+    border: 0%;
+    padding: 0%;
+}
+
+.bars{
+    position: absolute;
+    right: 5px;
+}
+
+.topnav{
+    position: absolute;
+right: 30px;
+}
+
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    z-index: 10;
+}
+
+
+.banner{
+    position: absolute;
+    right: 5px;
+    top: 100px;
+    width: 100%;
+    height: auto;
+}
+
+
+
+@media (min-width: 361px) {
+    .descripcion{
+        display: block;
+    }
+}
+
+
+    
