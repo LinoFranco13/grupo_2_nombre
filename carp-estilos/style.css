@@ -1,44 +1,92 @@
 *{
+    margin: 1px;
     border: 0%;
     padding: 0%;
+    border:0;
+}
+ 
+body{
+    background-color: rgb(231, 190, 138);
+    font-style: oblique;
 }
 
-.bars{
-    position: absolute;
-    right: 5px;
+header{
+    border: 1px solid black
 }
 
-.topnav{
-    position: absolute;
-right: 30px;
+.logo{  
+    border-radius: 100%;
+    width: 70px;
+    position: relative;
+    top: 3px;
+    left: 4px;
 }
 
-
-.logo{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 100px;
-    height: 100px;
-    z-index: 10;
+input{
+position: relative;
+bottom: 30px;
+left: 5px;
 }
 
+.menu-hamburguesa{
+    position: relative;
+    left: 8px;
+    bottom: 28px;
+    font-size: 15px;
+    background-color: #0044aa;
+    color: #fff;
+    border-radius: 5px;
+    height: 13px;
+    width: 13px;
+    padding: 8px;
+    
+}
 
 .banner{
-    position: absolute;
-    right: 5px;
-    top: 100px;
     width: 100%;
-    height: auto;
 }
 
-
-
-@media (min-width: 361px) {
-    .descripcion{
-        display: block;
-    }
+h3{
+text-align: center;
 }
 
+.lapiz{
+    width: 80px;
+}
 
-    
+.descripcion{
+    font-size: 10px;
+}
+
+.precio{
+    font-size: 12px;
+}
+
+h3{
+    margin-top: 10px;
+}
+
+.a{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.b{
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+article{
+    border: 3px solid blue;
+}
+
+p{
+    text-align: center;
+}
