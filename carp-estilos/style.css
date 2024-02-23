@@ -90,3 +90,10 @@ article{
 p{
     text-align: center;
 }
+
+.img-categorias{
+    border-radius: 100%;
+}
+h4{
+    justify-content: center;
+}
