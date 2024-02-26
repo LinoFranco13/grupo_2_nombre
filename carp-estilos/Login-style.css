@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+
+body{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(254, 212, 0), rgb(9, 9, 9));
+    padding-bottom: 220px;
+    
+}
+
+
+h2{
+    text-align: center;
+    padding: 25px;
+}
+
+.contenedor{
+    border: 2px solid rgb(29, 29, 29);
+    border-radius: 20px;
+    margin: 0px;
+    padding-top: 5px;
+    background-color: rgb(196, 148, 45);
+    padding: 5px;
+}
+
+.usuario{
+    text-align: center;
+}
+
+.contraseña{
+    padding: 20px;
+    text-align: center;
+}
+
+input{
+    font-size: 17px;
+    text-align: center;   
+
+}
+
+.footer{
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+
+.boton{
+    border-radius: 10px;
+    background-color: rgb(233, 200, 149);
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 23px;
+    margin: 30px 60px 30px 60px;
+}
+
+.remember{
+        padding-left: 10px;
+        padding-right: 30px;
+}   
+
+@media (max-width:330px){
+    .remember{
+        padding-top: 10px;
+    }
+}
+
+.boton:hover{
+    background-color: rgb(200, 162, 82);
+    transition-duration: 0,5;
+}
