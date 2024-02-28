@@ -6,8 +6,8 @@
 }
  
 body{
-    background-color: rgb(231, 190, 138);
     font-style: oblique;
+    background-color: rgb(229, 233, 233)
 }
 
 .logo{  
@@ -22,7 +22,10 @@ input{
 position: relative;
 bottom: 30px;
 left: 5px;
+border: 2px solid black;
+border-radius: 30px;
 }
+
 
 .menu-hamburguesa{
     position: relative;
@@ -46,10 +49,10 @@ text-align: center;
 margin-bottom: 10px;
 }
 
-.art-img{
-    width: 100%;
+img{
+    width: 50%
 }
-
+    
 .descripcion{
     font-size: 10px;
 }
@@ -58,41 +61,108 @@ margin-bottom: 10px;
     font-size: 12px;
 }
 
-.products{
-    border: 2px solid black;
+
+.contenedor-1{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 10px;
+    flex-direction: column;
+    align-items: center;  
+    padding-bottom: 30px; 
+
 }
 
-.Red-box{
-    border: 3px solid red;
+.art-img{
+    width: 100%;
+    
+}
+
+ .article-1{
+    background-color: #fff;
+    width: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    justify-content: space-evenly;  
+    align-items: center;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 1px 3px 10px 1px;
 }
 
-article{
-    border: 3px solid blue;
-    background-color: rgb(210, 162, 7);
+.categorias-box{
+padding: 20px;
 }
+
+
+.contenedor-2-1, .contenedor-2-2{
+    display: flex;
+}
+
+
+.art-categoria-1, .art-categoria-2, .art-categoria-3, .art-categoria-4{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 50%;
+}
+
+
 
 p{
-    text-align: center;
+    text-align: center
 }
 
 .img-categorias{
-    border-radius: 100%;
+    border-radius: 50%;
 }
 h4{
-    justify-content: center;
-}
-.bonus-center{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
 }
+
+.bonus-center{
+padding: 10px;
+text-align: justify;
+}
+
+.parrafo-pie{
+    background-color: #fff;
+    border: 1px solid rgb(251, 255, 2);
+    padding: 10px;
+    box-shadow: 1px 3px 10px 1px;
+    border-radius: 10px;
+}
+
+.quienes-somos{
+    text-align: justify;
+}
+
+@media (min-width:350px){
+    .article-1{
+    width: 25%;
+    }
+
+    .contenedor-1{
+        justify-content: center;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width:768px){
+
+    
+    .article-1{
+        width: 17%;
+        }
+
+    .categorias-box{
+   display: flex;
+        }
+
+        .contenedor-2-1{
+   width: 100%;
+        }
+    }
+
 
