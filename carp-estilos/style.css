@@ -10,6 +10,17 @@ body{
     background-color: rgb(229, 233, 233)
 }
 
+header{
+    background-color: rgb(107, 1, 1);
+}
+
+.registro{
+    display: flex;
+  width: 40%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
 .logo{  
     border-radius: 100%;
     width: 70px;
@@ -162,7 +173,5 @@ text-align: justify;
 
         .contenedor-2-1{
    width: 100%;
-        }
     }
-
-
+    }
