@@ -8,14 +8,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgb(254, 212, 0), rgb(9, 9, 9));
+    background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
     padding-top: 80px;
     padding-bottom: 208px;
 }
 
 .contenedor{
-    background-color: rgb(245, 180, 106);
-    border-radius: 10px;
+    background-color: rgb(202, 146, 24);
+    border-radius: 5px;
     width: 340px;
 }
 
@@ -41,6 +41,7 @@ input{
     text-align: center;
     font-style: normal;
     width: 220px;
+    border-radius: 10px;
 }
 
 .icono{
