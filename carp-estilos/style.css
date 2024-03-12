@@ -183,9 +183,6 @@ h4{
     text-align: justify;
     
 }
-
-
-
 @media (min-width:400px){
     .article-1{
     width: 25%;
@@ -281,9 +278,6 @@ h4{
         border-radius: 50px;
         background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
     }
-
- 
-
     .categorias-box{
    display: flex;
         }
@@ -312,5 +306,23 @@ h4{
     } 
 
 }
-    
-    
+.contenedor-footer{
+    display: flex;
+    padding: 0 20px;
+    background-color: #fff;
+    background-image: url("/images/BEnzwCv.jpg");
+    opacity: ;
+}
+.contactanos{
+    margin: 10px;
+}
+.enlaces{
+    margin: 20px;
+}
+.social{
+    margin: 20px;
+}
+.pie{
+    margin-top: 20px;
+    align-items: center;
+}
