@@ -1,0 +1,82 @@
+*{
+    margin: 1px;
+    border: 0%;
+    padding: 0%;
+    border:0;
+}
+
+.header{
+height: 150px;
+}
+ 
+body{
+    background-color: #fff;
+    background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
+    
+}
+
+.registro{
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
+
+.logo{  
+    border-radius: 100%;
+    width: 70px;
+    position: relative;
+    top: 3px;
+    left: 4px;
+}
+
+.input-contenedor{
+    position: relative;
+    bottom: 55px;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+border-radius: 30px;
+height: 20px;
+padding: 7px;
+}
+
+
+.menu-hamburguesa{
+    font-size: 22px;
+    background-color: #0044aa;
+    color: #fff;
+    border-radius: 5px;
+    width: 20px;
+    height: 20px;
+    padding: 8px;
+    position: relative;
+    left: 10px;
+    bottom: 2px;
+    
+}
+
+
+ul li a{
+    font-size: 14px;
+    color: white;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+h2{
+    color: #fff;
+    position: absolute;
+    left: 80px;
+    top: 250px
+}
+
+.excalibur{
+    width: 400px;
+    position: relative;
+    left: 10px;
+}
