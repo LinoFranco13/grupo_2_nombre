@@ -5,14 +5,18 @@
     border:0;
 }
 
+
 .header{
-height: 150px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 42px;
+    height: 1px;
 }
  
 body{
     background-color: #fff;
     background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
-    
 }
 
 .registro{
@@ -24,42 +28,41 @@ body{
 }
 
 .logo{  
+    display: inline-block;
     border-radius: 100%;
-    width: 70px;
-    position: relative;
-    top: 3px;
-    left: 4px;
+    width: 50px;
 }
 
 .input-contenedor{
-    position: relative;
-    bottom: 55px;
-    left: 20px;
-    display: flex;
-    justify-content: center;
+display: flex;
+
+
+    
 }
 
 input{
 border-radius: 30px;
-height: 20px;
-padding: 7px;
+height: 8px;
+padding: 5px;
 }
 
 
 .menu-hamburguesa{
-    font-size: 22px;
+    font-size: 15px;
     background-color: #0044aa;
     color: #fff;
     border-radius: 5px;
-    width: 20px;
-    height: 20px;
+    width: 12px;
+    height: 12px;
     padding: 8px;
     position: relative;
-    left: 10px;
-    bottom: 2px;
-    
+    left: 3px;
+    bottom: 6px;
 }
 
+.contenedor-registro{
+display: none;
+}
 
 ul li a{
     font-size: 12px;
@@ -105,7 +108,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;  
-    padding-bottom: 30px; 
+    padding-bottom: 40px; 
 }
 
 .art-img{
@@ -113,21 +116,32 @@ img{
 }
 
  .article-1{
-    background-color: #f8f0f0;
-    width: 50%;
+    background-color: #ffffff;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 5px;
+    padding: 15px;
     margin-top: 10px;
     border-radius: 16px;
     box-shadow: 1px 5px 10px 5px;
     color: #345b88;
+    padding-bottom: 15px;
+}
+
+
+.descripcion{
+font-size: 12px;
+}
+
+.precio{
+    font-size: 14px;
+
 }
 
 .categorias-box{
 padding: 20px;
+padding-bottom: 30px;
 }
 
 .nombre-categoria{
@@ -171,6 +185,8 @@ h4{
 }
 
 .bonus-center{
+    padding-top: 20px;
+    padding-bottom: 20px;
     color:#c2c2ec;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -183,9 +199,34 @@ h4{
     text-align: justify;
     
 }
-@media (min-width:400px){
+
+.contenedor-footer{
+display: flex;
+padding-left: 7px;
+}
+
+.titulo-footer{
+font-size: 12px;
+}
+
+.parrafo-footer{
+    font-size: 10px;
+}
+
+
+.pie{
+    font-size: 10px;
+    padding-top: 15px;
+    padding-bottom: 3px;
+}
+
+@media (min-width:450px){
+
+ .banner{
+    width: 100%;
+ }
     .article-1{
-    width: 25%;
+    width: 24%;
     }
 
     .contenedor-1{
@@ -197,55 +238,66 @@ h4{
 
 @media (min-width:768px){
 
-
-    .logo{  
-        border-radius: 50%;
-        width: 110px;
-        position: relative;
-        top: 20px;
+    .header{
+        height: 10px;
+        display: flex;
+        flex-direction: column;
+         align-items: center;
+         position: relative;
+         bottom: 50px;
+         font-size: 40px;
     }
 
+    .banner{
+        height: 180px;
+    }
+
+    .menu-hamburguesa
+        {
+            display: none;
+        }
+
+.logo{
+    width: 130px;
+    display: inline-block;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    
+}
 
     input{
         width: 100%;
-        font-size: 18px;
+        font-size: 25px;
+        
+    }
+
+    .barra-busqueda{
+        height: 20px;
     }
 
     .input-contenedor{
         display: flex;
-        justify-content: center;
-        position: relative;
-        bottom: 50px;
-        left: 32%;
-        height: 30px;
+        flex-direction: row;
         width: 30%;
-        
     }
 
     .contenedor-registro{
         display: flex;
-        justify-content: end;
-        color: white;
-        position: relative;
-        bottom: 30px;
+        flex-direction: row;
     }
 
-    .registro{
-        display: flex;
-        justify-content: end;
-    
-      } 
 
       ul li a{
-        font-size: 17px;
+        font-size: 22px;
         color: white;
         padding-right: 30px;
         text-decoration: none;
     }
       
     .icono{
-        padding-left: 7px;
-       color: #b2b2b4;
+       padding-left: 7px;
+       color: #5353d8;
     }
 
     h3{
@@ -269,17 +321,25 @@ h4{
         }
 
     .descripcion{
-        font-size: 18px;
+        font-size: 25px;
     }
 
+   
     .precio{
+        padding: 2px 30px 2px 30px;
         color: rgb(255, 255, 255);
-        font-size: 20px;
+        font-size: 25px;
         border-radius: 50px;
         background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
     }
+
+    .contenedor-1{
+        padding-bottom: 160px;
+    }
+
     .categorias-box{
    display: flex;
+   padding-bottom: 80px;
         }
 
     .contenedor-2-1{
@@ -290,10 +350,11 @@ h4{
         display: flex;
         flex-direction: row;
         padding: 10px;
+        padding-bottom: 60px;
     }
 
     .quienes-somos{
-        font-size: 17px;
+        font-size: 20px;
     } 
 
     h4{
@@ -305,23 +366,25 @@ h4{
         font-size: 30px;
     } 
 
-}
-.contenedor-footer{
-    display: flex;
-    padding: 0 20px;
-    background-color: #fff;
-    background-image: url("/images/BEnzwCv.jpg");
-}
-.contactanos{
-    margin: 10px;
-}
-.enlaces{
-    margin: 20px;
-}
-.social{
-    margin: 20px;
-}
-.pie{
-    margin-top: 20px;
-    align-items: center;
+    .contenedor-footer{
+        display: flex;
+        justify-content:space-evenly;
+        height: 120px;
+        background-image: url("/images/BEnzwCv.jpg");   
+    }
+    
+    .titulo-footer{
+    font-size: 35px;
+    }
+    
+    .parrafo-footer{
+        font-size: 22px;
+    }
+    
+    .pie{
+        font-size: 17px;
+        padding-top: 15px;
+        padding-bottom: 3px;
+    }
+
 }
