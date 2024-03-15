@@ -55,9 +55,7 @@ padding: 5px;
     width: 12px;
     height: 12px;
     padding: 8px;
-    position: relative;
-    left: 3px;
-    bottom: 6px;
+   
 }
 
 .contenedor-registro{
@@ -252,10 +250,10 @@ font-size: 12px;
         height: 180px;
     }
 
-    .menu-hamburguesa
-        {
-            display: none;
-        }
+   .menu-hamburguesa{
+    display: none;
+   }
+
 
 .logo{
     width: 130px;
@@ -268,7 +266,7 @@ font-size: 12px;
 
     input{
         width: 100%;
-        font-size: 25px;
+        font-size: 17px;
         
     }
 
@@ -321,14 +319,15 @@ font-size: 12px;
         }
 
     .descripcion{
-        font-size: 25px;
+        font-size: 16px;
+        padding-bottom: 5px;
     }
 
    
     .precio{
         padding: 2px 30px 2px 30px;
         color: rgb(255, 255, 255);
-        font-size: 25px;
+        font-size: 18px;
         border-radius: 50px;
         background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
     }
@@ -370,7 +369,7 @@ font-size: 12px;
         display: flex;
         justify-content:space-evenly;
         height: 120px;
-        background-image: url("/images/BEnzwCv.jpg");   
+          
     }
     
     .titulo-footer{
