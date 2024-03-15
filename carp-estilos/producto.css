@@ -1,12 +1,12 @@
 *{
-    margin: 1px;
+    margin: 0px;
     border: 0%;
     padding: 0%;
     border:0;
 }
 
 .header{
-height: 150px;
+height: 80px;
 }
  
 body{
@@ -25,7 +25,7 @@ body{
 
 .logo{  
     border-radius: 100%;
-    width: 70px;
+    width: 50px;
     position: relative;
     top: 3px;
     left: 4px;
@@ -33,29 +33,28 @@ body{
 
 .input-contenedor{
     position: relative;
-    bottom: 55px;
-    left: 20px;
+    bottom: 40px;
     display: flex;
     justify-content: center;
 }
 
 input{
 border-radius: 30px;
-height: 20px;
+height: 5px;
 padding: 7px;
 }
 
 
 .menu-hamburguesa{
-    font-size: 22px;
+    font-size: 10px;
     background-color: #0044aa;
     color: #fff;
     border-radius: 5px;
-    width: 20px;
-    height: 20px;
+    width: 8px;
+    height: 8px;
     padding: 8px;
     position: relative;
-    left: 10px;
+    left: 5px;
     bottom: 2px;
     
 }
@@ -66,17 +65,111 @@ ul li a{
     color: white;
     padding-right: 30px;
     text-decoration: none;
+    display: none;
 }
 
-h2{
-    color: #fff;
-    position: absolute;
-    left: 80px;
-    top: 250px
+.titulo{
+    text-align: center;
+    background-color: rgb(147, 147, 144);
+    width: 100%;
+    border-radius: 20px;
+   
+}
+
+
+h4{
+    color: #0a0a0a;
+    padding: 5px;
+    font-size: 15px;
+}
+
+h3{
+    color: rgb(10, 10, 10);
+}
+
+.contenedor-1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+
+}
+
+.articulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 70%;
+    padding: 10px;
+    
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
 }
 
 .excalibur{
-    width: 400px;
-    position: relative;
-    left: 10px;
+    width: 80%;
+    padding: 20px 0 10px 0;
+    }
+
+.contenedor-descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 10px;
+    padding: 0  10px 0 10px;
+}
+
+.metodos-pago{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.pagos{
+    font-size: 10px;
+}
+
+.icono{
+    color: #2968c6;
+}
+
+
+@media(min-width:768px){
+
+    .articulo{
+display: flex;
+flex-direction: row;
+border-radius: 0px;
+height: 300px;
+width: 60%;
+    }
+    
+   .excalibur{
+    width: 90%;
+   }
+
+.imagen{
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.contenedor-descripcion{
+    width: 200%;
+    
+}
+
+   
+
 }
