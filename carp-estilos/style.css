@@ -6,7 +6,7 @@
 }
 
 
-.header{
+/*header{
     font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
@@ -14,6 +14,58 @@
     bottom: 42px;
     height: 1px;
 }
+*/
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #33266397;
+}
+.buscar{
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+}
+.buscar input{
+    width: 240px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+}
+.search{
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background-color: #474997;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo{ 
+        border-radius: 100%;
+        width: 90px;
+        position: relative;
+        top: 3px;
+        left: 4px;
+}
+.links{
+    text-decoration: none;
+    color: #802426;
+    font-weight: bold;
+    margin-right: 19px;
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: 40px;
+   
+}
+
  
 body{
     font-family: 'Courier New', Courier, monospace;
@@ -21,19 +73,7 @@ body{
     background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
 }
 
-.registro{
-  display: flex;
-  width: 40%;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  
-}
 
-.logo{  
-    display: inline-block;
-    border-radius: 100%;
-    width: 50px;
-}
 
 .input-contenedor{
 display: flex;
@@ -257,55 +297,60 @@ font-size: 12px;
         height: 180px;
     }
 
-<<<<<<< HEAD
-    .fa-solid
-        {
-            visibility: hidden;
-        }
-=======
    .menu-hamburguesa{
     display: none;
    }
 
->>>>>>> cd83407977bdad67faedddd2a6c2ab2ba19069a6
-
-.logo{
-    width: 130px;
-    display: inline-block;
-    position: relative;
-    left: 10px;
-    top: 10px;
-    
+   .nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #33266397;
 }
-
-    input{
-        width: 100%;
-        font-size: 17px;
-        
-    }
-
-    .barra-busqueda{
-        height: 20px;
-    }
-
-    .input-contenedor{
-        display: flex;
-        flex-direction: row;
-        width: 30%;
-    }
-
-    .contenedor-registro{
-        display: flex;
-        flex-direction: row;
-    }
-
-
-      ul li a{
-        font-size: 22px;
-        color: white;
-        padding-right: 30px;
-        text-decoration: none;
-    }
+.buscar{
+    padding: 5px;
+    justify-content: space-between;
+    display: flex;
+}
+.buscar input{
+    width: 240px;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    border-radius: 20px;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+}
+.search{
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    background-color: #474997;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.logo{ 
+        border-radius: 100%;
+        width: 90px;
+        position: relative;
+        top: 3px;
+        left: 4px;
+}
+.links{
+    text-decoration: none;
+    color: #802426;
+    font-weight: bold;
+    margin-right: 19px;
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: 40px;
+   
+}
       
     .icono{
        padding-left: 7px;
@@ -331,13 +376,8 @@ font-size: 12px;
         }
 
     .descripcion{
-<<<<<<< HEAD
-        font-size: 13px;
-        
-=======
         font-size: 16px;
         padding-bottom: 5px;
->>>>>>> cd83407977bdad67faedddd2a6c2ab2ba19069a6
     }
 
    
@@ -345,11 +385,7 @@ font-size: 12px;
         margin-top: 15px;
         padding: 2px 30px 2px 30px;
         color: rgb(255, 255, 255);
-<<<<<<< HEAD
-        font-size: 20px;
-=======
         font-size: 18px;
->>>>>>> cd83407977bdad67faedddd2a6c2ab2ba19069a6
         border-radius: 50px;
         background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
     }
@@ -390,13 +426,8 @@ font-size: 12px;
     .contenedor-footer{
         display: flex;
         justify-content:space-evenly;
-<<<<<<< HEAD
-        background-image:
-        linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(117, 19, 93, 0.774)), url("/images/BEnzwCv.jpg");  
-=======
         height: 120px;
           
->>>>>>> cd83407977bdad67faedddd2a6c2ab2ba19069a6
     }
     
     .titulo-footer{

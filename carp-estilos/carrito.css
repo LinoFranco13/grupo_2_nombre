@@ -36,16 +36,6 @@ header{
     outline: none;
     border: 1px solid silver;
 }
-.search{
-    width: 55px;
-    height: 55px;
-    line-height: 55px;
-    text-align: center;
-    background-color: #474997;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-}
 .links{
     text-decoration: none;
     color: #802426;
