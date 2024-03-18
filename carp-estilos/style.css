@@ -5,6 +5,9 @@
     border:0;
 }
 
+header{
+    background-color: #24093be4;
+}
 
 .header{
     font-family: 'Courier New', Courier, monospace;
@@ -12,13 +15,15 @@
     justify-content: center;
     position: relative;
     bottom: 42px;
-    height: 1px;
+    width: 100%;
+    
+  
 }
  
 body{
     font-family: 'Courier New', Courier, monospace;
     background-color: #fff;
-    background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
+    
 }
 
 .registro{
@@ -66,15 +71,31 @@ padding: 5px;
 display: none;
 }
 
+
+li{
+    
+    list-style: none;
+}
+
 ul li a{
     font-size: 12px;
     color: white;
     padding-right: 30px;
-    text-decoration: none;
+    text-decoration:none;
+    padding-left: 20px;
+   
+    
 }
 
+ul li a:hover{
+color:#0044aa
+}
 .banner{
     width: 100%;
+}
+
+main{
+    background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
 }
 
 h3{
@@ -257,17 +278,10 @@ font-size: 12px;
         height: 180px;
     }
 
-<<<<<<< HEAD
-    .fa-solid
-        {
-            visibility: hidden;
-        }
-=======
    .menu-hamburguesa{
     display: none;
    }
 
->>>>>>> cd83407977bdad67faedddd2a6c2ab2ba19069a6
 
 .logo{
     width: 130px;
@@ -331,13 +345,8 @@ font-size: 12px;
         }
 
     .descripcion{
-<<<<<<< HEAD
-        font-size: 13px;
-        
-=======
         font-size: 16px;
         padding-bottom: 5px;
->>>>>>> cd83407977bdad67faedddd2a6c2ab2ba19069a6
     }
 
    
@@ -345,11 +354,7 @@ font-size: 12px;
         margin-top: 15px;
         padding: 2px 30px 2px 30px;
         color: rgb(255, 255, 255);
-<<<<<<< HEAD
-        font-size: 20px;
-=======
         font-size: 18px;
->>>>>>> cd83407977bdad67faedddd2a6c2ab2ba19069a6
         border-radius: 50px;
         background-image: url("/images/1b54e4f67408c08995992bacc9e8b802.jpg");
     }
@@ -387,32 +392,52 @@ font-size: 12px;
         font-size: 30px;
     } 
 
+    footer{
+        background-color: #24093be4;
+        
+        display: flex;
+        padding: 0 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        flex-direction: column; 
+    }
+    .footer-logo{
+        display: flex;
+        justify-content: center;
+    }
     .contenedor-footer{
         display: flex;
-        justify-content:space-evenly;
-<<<<<<< HEAD
-        background-image:
-        linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(117, 19, 93, 0.774)), url("/images/BEnzwCv.jpg");  
-=======
-        height: 120px;
-          
->>>>>>> cd83407977bdad67faedddd2a6c2ab2ba19069a6
+        text-align: center;
     }
-    
-    .titulo-footer{
-    font-size: 25px;
+
+    .contactanos{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 20px;
+        color: #cdc6c6;
     }
-    
-    .parrafo-footer{
-        font-size: 18px;
+    .enlaces{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 20px;
+        color: #cdc6c6;
     }
-    
+    .social{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 20px;
+        color:#cdc6c6;
+    }
+    .pago-icons{
+        position: relative;
+        left: 450px;
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+    }
     .pie{
-        font-size: 17px;
-        padding-top: 15px;
-        padding-bottom: 3px;
+        color: #89838e;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20px;
+        text-align: center;
     }
-
-
-
 }
