@@ -40,8 +40,6 @@ header{
     width: 55px;
     height: 55px;
     line-height: 55px;
-    text-align: center;
-    background-color: #474997;
     font-size: 20px;
     border-radius: 50%;
     cursor: pointer;
@@ -135,6 +133,11 @@ footer{
 .footer-logo{
     display: flex;
     justify-content: center;
+    
+}
+
+#logo{
+    width: 25%;
 }
 .contenedor-footer{
     display: flex;
