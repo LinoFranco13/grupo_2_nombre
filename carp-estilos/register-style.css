@@ -14,7 +14,7 @@ body {
 }
 
 .contenedor{
-    background-color: rgb(202, 146, 24);
+    background-color: #33266388;
     border-radius: 5px;
     width: 340px;
 }
@@ -41,7 +41,9 @@ input{
     text-align: center;
     font-style: normal;
     width: 220px;
-    border-radius: 10px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px silver;
 }
 
 .icono{
@@ -86,5 +88,3 @@ padding-bottom: 20px;
     color: rgb(14, 12, 12);
     transition: color 0.5s;
 }
-
-

@@ -36,6 +36,14 @@ header{
     outline: none;
     border: 1px solid silver;
 }
+.search{
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 .links{
     text-decoration: none;
     color: #802426;
@@ -125,6 +133,11 @@ footer{
 .footer-logo{
     display: flex;
     justify-content: center;
+    
+}
+
+#logo{
+    width: 25%;
 }
 .contenedor-footer{
     display: flex;
